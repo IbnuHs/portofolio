@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Footer() {
   return (
     <div className="bg-[#000000] font-sora py-5 px-4 text-white flex justify-between lg:px-20 items-center">

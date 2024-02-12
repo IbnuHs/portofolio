@@ -1,4 +1,3 @@
-import React from "react";
 import crypto from "../assets/projects/crypto.svg";
 import ecommerce from "../assets/projects/ecommerce.svg";
 import blog from "../assets/projects/blog.svg";

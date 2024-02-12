@@ -1,4 +1,3 @@
-import React from "react";
 import reactimg from "../assets/skills/react-js-icon.svg";
 import html from "../assets/skills/html5-balck-icon.svg";
 import css from "../assets/skills/css3-icon.svg";

@@ -1,4 +1,3 @@
-import React from "react";
 import vector from "../assets/About Me/Group 1000015845.svg";
 
 export default function AboutMe() {

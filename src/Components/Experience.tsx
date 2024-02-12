@@ -1,4 +1,3 @@
-import React from "react";
 import dicoding from "../assets/experience/dicoding.png";
 import idcamp from "../assets/experience/idcamp.jpg";
 import kalla from "../assets/experience/images.png";

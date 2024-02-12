@@ -1,4 +1,3 @@
-import React from "react";
 import frame from "../assets/Frame 20.png";
 import facebook from "../assets/social media/facebook.svg";
 import twitter from "../assets/social media/twitter.svg";
