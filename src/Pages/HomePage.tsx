@@ -7,7 +7,7 @@ import ContactForm from "../Components/ContactForm";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <HeroSection />
       <MySkill />
       <Experience />
