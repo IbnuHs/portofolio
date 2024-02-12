@@ -1,4 +1,5 @@
 import { useState } from "react";
+import tag from "../assets/code-icon.svg";
 
 export default function Navbar() {
   const [toggle, setToggle] = useState(true);
@@ -7,9 +8,12 @@ export default function Navbar() {
   }
   return (
     <div className="font-sora flex justify-between px-4 py-4 items-center z-50 border-2 overflow-hidden bg-white shadow-sm lg:px-20">
-      <h1 className="text-black text-[20px] font-bold z-50">Portofolio</h1>
+      <h1 className="text-black text-[20px] font-bold z-50 flex justify-between gap-2">
+        <img src={tag} alt="" className="w-8" />
+        HasyimDev
+      </h1>
       <ol
-        className={`flex absolute top-20 right-0 left-0 justify-center items-center font-semibold flex-col gap-10  bg-white z-10 py-4 lg:flex transition ease-in-out duration-75 lg:static lg:translate-y-0 lg:flex-row lg:z-0 lg:opacity-100 ${
+        className={`flex absolute top-20 right-0 left-0 justify-center items-center font-semibold flex-col gap-10  bg-white z-10 py-4 lg:flex transition ease-in-out duration-200 lg:static lg:translate-y-0 lg:flex-row lg:z-0 lg:opacity-100 ${
           toggle ? "-translate-y-[150%] opacity-0" : "translate-y-0 opacity-100"
         }  `}
       >
