@@ -1,8 +1,4 @@
 import frame from "../assets/Frame 20.png";
-import facebook from "../assets/social media/facebook.svg";
-import twitter from "../assets/social media/twitter.svg";
-import discord from "../assets/social media/discord.svg";
-import reddit from "../assets/social media/reddit.svg";
 import frameDesktop from "../assets/Frame desktop.svg";
 import linkedin from "../assets/social media/linkedin-square-icon.svg";
 import instagram from "../assets/social media/black-instagram-icon.svg";
