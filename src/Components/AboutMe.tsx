@@ -18,13 +18,13 @@ export default function AboutMe() {
             Universitas Muslim Indonesia, majoring in informatics engineering
             and focusing on web development. i have participated in several
             bootcamp activities such as Indosat Oreedoo hutchinson, linstasarta
-            cloudeka digishool and independent studies held by the independent
-            campus in partnership with Dicoding with the topic of learning Front
-            End web development and Back end. I have also had an internship for
-            approximately 5 months which was also held by the independent campus
-            and partnered with Kalla Group, there I worked as a Back End
-            Developer and was tasked with creating an API used by the Front End
-            team.
+            cloudeka digishool and independent studies held by the Kampus
+            Merdeka in partnership with Dicoding with the topic of learning
+            Front End web development and Back end. I have also had an
+            internship for approximately 5 months which was also held by the
+            Kampus Merdeka and partnered with Kalla Group, there I worked as a
+            Back End Developer and was tasked with creating an API used by the
+            Front End team.
           </p>
           {/* <p>
             I began my journey as a web developer in 2015, and since then, I've
