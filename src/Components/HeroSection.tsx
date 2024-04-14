@@ -4,6 +4,9 @@ import twitter from "../assets/social media/twitter.svg";
 import discord from "../assets/social media/discord.svg";
 import reddit from "../assets/social media/reddit.svg";
 import frameDesktop from "../assets/Frame desktop.svg";
+import linkedin from "../assets/social media/linkedin-square-icon.svg";
+import instagram from "../assets/social media/black-instagram-icon.svg";
+import email from "../assets/social media/email-address-icon.svg";
 
 export default function HeroSection() {
   return (
@@ -28,33 +31,50 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-[16px] text-[#71717A] py-8">
-          I'm Ibnu Hasyim Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to specimen book.
+          I am a final year student who is highly dedicated to web development.
+          With my love for technology and creativity, I have explored various
+          areas in web development, from interface design to backend
+          development. With the experience and knowledge I have gained during my
+          studies, I have managed to create a variety of interesting web
+          projects.
         </p>
 
-        <ol className="flex flex-row gap-6 lg:absolute xl:-bottom-8">
+        <ol className="flex flex-row gap-6 lg:absolute xl:-bottom-0">
           <li>
-            <a href="">
-              <img src={facebook} alt="facebook icon" className="w-30px" />
+            <a
+              href="https://www.linkedin.com/in/ibnu-hasyim-surianto-277b84241/"
+              target="_blank"
+            >
+              <img
+                src={linkedin}
+                alt="linkedin icon"
+                className="lg:w-[45px] w-[35px] p-1 border-[2px] border-black rounded-md"
+              />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src={reddit} alt="reddit icon" className="w-30px" />
+            <a href="mailto:ibnuhs30@gmail.com" target="_blank">
+              <img
+                src={email}
+                alt="email icon"
+                className="lg:w-[45px] w-[35px] p-1 border-[2px] border-black rounded-md"
+              />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src={twitter} alt="twitter icon" className="w-30px" />
+            <a href="https://www.instagram.com/ibnu.hasyim.s/" target="_blank">
+              <img
+                src={instagram}
+                alt="instagram icon"
+                className="lg:w-[45px] w-[35px] p-1 border-[2px] border-black rounded-md"
+              />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="">
               <img src={discord} alt="discord icon" className="w-30px" />
             </a>
-          </li>
+          </li> */}
         </ol>
       </div>
     </div>

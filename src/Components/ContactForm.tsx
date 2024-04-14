@@ -1,7 +1,6 @@
-import facebook from "../assets/social media/facebook.svg";
-import twitter from "../assets/social media/twitter.svg";
-import discord from "../assets/social media/discord.svg";
-import reddit from "../assets/social media/reddit.svg";
+import linkedin from "../assets/social media/linkedin-square-icon.svg";
+import email from "../assets/social media/email-address-icon.svg";
+import instagram from "../assets/social media/black-instagram-icon.svg";
 
 export default function ContactForm() {
   return (
@@ -43,23 +42,36 @@ export default function ContactForm() {
           </div>
           <ol className="flex flex-row gap-6">
             <li>
-              <a href="">
-                <img src={facebook} alt="facebook icon" className="w-30px" />
+              <a
+                href="https://www.linkedin.com/in/ibnu-hasyim-surianto-277b84241/"
+                target="_blank"
+              >
+                <img
+                  src={linkedin}
+                  alt="linkedin icon"
+                  className="w-[35px] p-1 border-[2px] border-black rounded-md"
+                />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src={reddit} alt="reddit icon" className="w-30px" />
+              <a href="mailto:ibnuhs30@gmail.com" target="_blank">
+                <img
+                  src={email}
+                  alt="email icon"
+                  className="w-[35px] p-1 border-[2px] border-black rounded-md"
+                />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src={twitter} alt="twitter icon" className="w-30px" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src={discord} alt="discord icon" className="w-30px" />
+              <a
+                href="https://www.instagram.com/ibnu.hasyim.s/"
+                target="_blank"
+              >
+                <img
+                  src={instagram}
+                  alt="instagram icon"
+                  className="w-[35px] p-1 border-[2px] border-black rounded-md"
+                />
               </a>
             </li>
           </ol>

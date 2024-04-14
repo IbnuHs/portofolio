@@ -1,7 +1,6 @@
-import crypto from "../assets/projects/crypto.svg";
-import ecommerce from "../assets/projects/ecommerce.svg";
-import blog from "../assets/projects/blog.svg";
-import anchor from "../assets/projects/anchor.svg";
+import ecoshop from "../assets/projects/ecoshop.png";
+import kallGroup from "../assets/projects/kalla-logo_no-bg-270x182.png";
+import newsApps from "../assets/projects/News Apps.png";
 
 export default function Projects() {
   return (
@@ -13,9 +12,9 @@ export default function Projects() {
       <div className="mt-7 flex flex-col gap-10 justify-center items-center lg:mt-20">
         <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 lg:gap-10 2xl:max-w-[95%]">
           <img
-            src={crypto}
+            src={newsApps}
             alt=""
-            className="w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 lg:w-full md:aspect-auto md:object-contain lg:object-fill object-cover"
+            className="rounded-lg w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 lg:w-full md:aspect-auto md:object-contain lg:object-fill object-cover"
           />
 
           <div className="flex flex-col gap-7 lg:justify-center">
@@ -23,24 +22,24 @@ export default function Projects() {
               01
             </h1>
             <h1 className="font-bold text-[20px] md:text-[16px] lg:text-[32px]">
-              Crypto Screener Application
+              News Apps
             </h1>
             <p className="text-[#71717A] md:text-[12px] lg:text-[16px]">
-              I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
-              and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s, when an unknown printer
-              took a galley of type and scrambled it to specimen book.
+              a news application that uses the API from the News API that
+              displays the latest news. built using react and Tailwind Css. the
+              display is responsive, can be accessed using desktops, tablets and
+              cellphones.
             </p>
-            <a href="">
+            {/* <a href="">
               <img src={anchor} alt="" />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[90%]">
           <img
-            src={ecommerce}
+            src={ecoshop}
             alt=""
-            className="w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 md:aspect-auto lg:w-full md:object-fill object-cover md:col-start-2"
+            className="rounded-lg w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 md:aspect-auto lg:w-full md:object-fill object-cover md:col-start-2"
           />
 
           <div className="flex flex-col gap-7 lg:justify-center md:col-start-1 md:row-start-1 m-auto">
@@ -48,26 +47,30 @@ export default function Projects() {
               02
             </h1>
             <h1 className="font-bold text-[20px] md:text-[16px] lg:text-[32px]">
-              Euphoria - Ecommerce (Apparels) Website Template
+              Eco shop
             </h1>
             <p className="text-[#71717A] md:text-[12px] lg:text-[16px]">
-              I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
-              and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s, when an unknown printer
-              took a galley of type and scrambled it to specimen book. when an
-              unknown printer took a galley of type and scrambled it to specimen
-              book.
+              an application for buying and selling recycled goods using used
+              goods. the design is the result of{" "}
+              <a
+                href="https://www.figma.com/@bimaagustianwp"
+                className="underline"
+              >
+                Bima agustian Wanaputra's work
+              </a>{" "}
+              . it is a design that I randomly found on figma. I made this to
+              fill my free time. Built using react and tailwind Css.
             </p>
-            <a href="">
+            {/* <a href="">
               <img src={anchor} alt="" />
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[95%]">
           <img
-            src={blog}
+            src={kallGroup}
             alt=""
-            className="w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 md:aspect-auto md:object-fill lg:w-full object-cover "
+            className="object-fill rounded-lg w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 md:aspect-auto md:object-fill lg:w-full  "
           />
 
           <div className="flex flex-col gap-7 lg:justify-center">
@@ -75,17 +78,16 @@ export default function Projects() {
               03
             </h1>
             <h1 className="font-bold text-[20px] md:text-[16px] lg:text-[32px]">
-              Blog Website Template
+              Logistic API
             </h1>
             <p className="text-[#71717A] md:text-[12px] lg:text-[16px]">
-              I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
-              and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s, when an unknown printer
-              took a galley of type and scrambled it to specimen book.
+              A back end application to track the position of goods sent, an API
+              that will be used by the front end. built using nestJs Typescript
+              and Mysql.
             </p>
-            <a href="">
+            {/* <a href="">
               <img src={anchor} alt="" />
-            </a>
+            </a> */}
           </div>
         </article>
       </div>

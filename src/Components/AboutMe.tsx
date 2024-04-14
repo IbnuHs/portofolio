@@ -14,13 +14,19 @@ export default function AboutMe() {
         </h1>
         <div className="mt-10 flex flex-col gap-5 lg:text-[12px] xl:text-[16px]">
           <p>
-            I'm a passionate, self-proclaimed designer who specializes in full
-            stack development (React.js & Node.js). I am very enthusiastic about
-            bringing the technical and visual aspects of digital products to
-            life. User experience, pixel perfect design, and writing clear,
-            readable, highly performant code matters to me.
+            hello, I am Ibnu hasyim Surianto a final year student at the
+            Universitas Muslim Indonesia, majoring in informatics engineering
+            and focusing on web development. i have participated in several
+            bootcamp activities such as Indosat Oreedoo hutchinson, linstasarta
+            cloudeka digishool and independent studies held by the independent
+            campus in partnership with Dicoding with the topic of learning Front
+            End web development and Back end. I have also had an internship for
+            approximately 5 months which was also held by the independent campus
+            and partnered with Kalla Group, there I worked as a Back End
+            Developer and was tasked with creating an API used by the Front End
+            team.
           </p>
-          <p>
+          {/* <p>
             I began my journey as a web developer in 2015, and since then, I've
             continued to grow and evolve as a developer, taking on new
             challenges and learning the latest technologies along the way. Now,
@@ -36,7 +42,7 @@ export default function AboutMe() {
             early startups or enjoying some free time. You can follow me on
             Twitter where I share tech-related bites and build in public, or you
             can follow me on GitHub.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
