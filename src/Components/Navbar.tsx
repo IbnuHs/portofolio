@@ -33,7 +33,7 @@ export default function Navbar() {
           <a
             href="https://drive.google.com/file/d/1vm0ZMNGS8XGNhmk4_5-1I4XOAv_Lkf5-/view?usp=sharing"
             target="_blank"
-            className="border"
+            className="border flex lg:hidden"
           >
             <button className="font-semibold px-4 py-3 bg-black text-white rounded gap-2 text-[12px] items-center flex lg:hidden">
               Resume
