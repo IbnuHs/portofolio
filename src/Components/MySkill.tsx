@@ -11,7 +11,7 @@ import javascript from "../assets/skills/javascript-programming-language-icon.sv
 
 export default function MySkill() {
   return (
-    <div className="font-sora py-10 px-4 lg:py-20">
+    <div id="skills" className="font-sora py-10 px-4 lg:py-20">
       <h1 className="text-[28px] text-center lg:text-[48px]">
         My <span className="font-bold">Skills</span>
       </h1>

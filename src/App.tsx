@@ -5,11 +5,11 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="scroll-smooth">
       <Navbar />
       <HomePage />
       <Footer />
-    </>
+    </div>
   );
 }
 

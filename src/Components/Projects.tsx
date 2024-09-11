@@ -1,10 +1,11 @@
 import ecoshop from "../assets/projects/ecoshop.png";
 import kallGroup from "../assets/projects/kalla-logo_no-bg-270x182.png";
 import newsApps from "../assets/projects/News Apps.png";
+import lostandfound from "../assets/projects/lostandfound.png"
 
 export default function Projects() {
   return (
-    <div className="bg-[#000000] text-white font-sora px-4 py-10 lg:px-20 lg:py-20">
+    <div id="projects" className="bg-[#000000] text-white font-sora px-4 py-10 lg:px-20 lg:py-20">
       <h1 className="text-[28px] text-center lg:text-[48px]">
         My <span className="font-bold">Projects</span>
       </h1>
@@ -84,6 +85,28 @@ export default function Projects() {
               A back end application to track the position of goods sent, an API
               that will be used by the front end. built using nestJs Typescript
               and Mysql.
+            </p>
+            {/* <a href="">
+              <img src={anchor} alt="" />
+            </a> */}
+          </div>
+        </article>
+        <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[90%] mb-10">
+          <img
+            src={lostandfound}
+            alt=""
+            className="rounded-lg w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 md:aspect-auto lg:w-full md:object-center object-cover md:col-start-2"
+          />
+
+          <div className="flex flex-col gap-7 lg:justify-center md:col-start-1 md:row-start-1 m-auto">
+            <h1 className="font-bold text-[24px] md:text-[16px] lg:text-[48px]">
+              04
+            </h1>
+            <h1 className="font-bold text-[20px] md:text-[16px] lg:text-[32px]">
+              Lost and Found
+            </h1>
+            <p className="text-[#71717A] md:text-[12px] lg:text-[16px]">
+            My final project is an application, a platform for lost and found items specifically designed for the Faculty of Computer Science at Universitas Muslim Indonesia. It was developed using ReactJS for the frontend, NestJS for the backend, Tailwind for styling, and MySQL as the database.
             </p>
             {/* <a href="">
               <img src={anchor} alt="" />

@@ -27,7 +27,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-[16px] text-[#71717A] py-8">
-          I am a final year student who is highly dedicated to web development.
+          I am a fresh graduate who is highly dedicated to web development.
           With my love for technology and creativity, I have explored various
           areas in web development, from interface design to backend
           development. With the experience and knowledge I have gained during my

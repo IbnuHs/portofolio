@@ -2,7 +2,7 @@ import vector from "../assets/About Me/Group 1000015845.svg";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col px-4 py-10 gap-10 font-sora md:py-24 md:px-10 lg:grid lg:grid-cols-2 2xl:px-20 lg:py-[60px]">
+    <div id="aboutme" className="flex flex-col px-4 py-10 gap-10 font-sora md:py-24 md:px-10 lg:grid lg:grid-cols-2 2xl:px-20 lg:py-[60px]">
       <img
         src={vector}
         alt=""
@@ -14,7 +14,7 @@ export default function AboutMe() {
         </h1>
         <div className="mt-10 flex flex-col gap-5 lg:text-[12px] xl:text-[16px]">
           <p>
-            hello, I am Ibnu hasyim Surianto a final year student at the
+            hello, I am Ibnu hasyim Surianto a fresh graduate from
             Universitas Muslim Indonesia, majoring in informatics engineering
             and focusing on web development. i have participated in several
             bootcamp activities such as Indosat Oreedoo hutchinson, linstasarta

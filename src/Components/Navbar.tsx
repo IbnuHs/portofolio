@@ -18,20 +18,20 @@ export default function Navbar() {
         }  `}
       >
         <li className="">
-          <a href="">About Me</a>
+          <a href="#aboutme">About Me</a>
         </li>
         <li>
-          <a href="">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="">Contact Me</a>
+          <a href="#contact">Contact Me</a>
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1vm0ZMNGS8XGNhmk4_5-1I4XOAv_Lkf5-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nVOeDxKVXaWJaNn3df8Ps2QblCXk_9km/view?usp=sharing"
             target="_blank"
             className="border flex lg:hidden"
           >
@@ -73,7 +73,7 @@ export default function Navbar() {
         </svg>
       </button>
       <a
-        href="https://drive.google.com/file/d/1vm0ZMNGS8XGNhmk4_5-1I4XOAv_Lkf5-/view?usp=sharing"
+        href="https://drive.google.com/file/d/1nVOeDxKVXaWJaNn3df8Ps2QblCXk_9km/view?usp=sharing"
         target="_blank"
         className="hidden lg:flex"
       >

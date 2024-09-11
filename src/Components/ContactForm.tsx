@@ -4,7 +4,7 @@ import instagram from "../assets/social media/black-instagram-icon.svg";
 
 export default function ContactForm() {
   return (
-    <div className="py-10 px-4 lg:grid grid-cols-2 lg:gap-10 xl:gap-0 lg:px-20 lg:py-[60px]">
+    <div id="contact" className="py-10 px-4 lg:grid grid-cols-2 lg:gap-10 xl:gap-0 lg:px-20 lg:py-[60px]">
       <form action="" className="flex flex-col gap-5 xl:w-[80%]">
         <input
           type="text"
