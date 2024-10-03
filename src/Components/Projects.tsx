@@ -1,11 +1,17 @@
 import ecoshop from "../assets/projects/ecoshop.png";
 import kallGroup from "../assets/projects/kalla-logo_no-bg-270x182.png";
 import newsApps from "../assets/projects/News Apps.png";
-import lostandfound from "../assets/projects/lostandfound.png"
+import lostandfound from "../assets/projects/lostandfound.png";
+import anchor from "../assets/projects/anchor.svg";
+import blogblok from "../assets/projects/BlogBlok.png";
+import { FaUnlink } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <div id="projects" className="bg-[#000000] text-white font-sora px-4 py-10 lg:px-20 lg:py-20">
+    <div
+      id="projects"
+      className="bg-[#000000] text-white font-sora px-4 py-10 lg:px-20 lg:py-20"
+    >
       <h1 className="text-[28px] text-center lg:text-[48px]">
         My <span className="font-bold">Projects</span>
       </h1>
@@ -31,9 +37,9 @@ export default function Projects() {
               display is responsive, can be accessed using desktops, tablets and
               cellphones.
             </p>
-            {/* <a href="">
-              <img src={anchor} alt="" />
-            </a> */}
+            <button disabled>
+              <FaUnlink className="text-[20px]" />
+            </button>
           </div>
         </article>
         <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[90%]">
@@ -62,9 +68,9 @@ export default function Projects() {
               . it is a design that I randomly found on figma. I made this to
               fill my free time. Built using react and tailwind Css.
             </p>
-            {/* <a href="">
-              <img src={anchor} alt="" />
-            </a> */}
+            <button disabled>
+              <FaUnlink className="text-[20px]" />
+            </button>
           </div>
         </article>
         <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[95%]">
@@ -86,9 +92,9 @@ export default function Projects() {
               that will be used by the front end. built using nestJs Typescript
               and Mysql.
             </p>
-            {/* <a href="">
-              <img src={anchor} alt="" />
-            </a> */}
+            <button disabled>
+              <FaUnlink className="text-[20px]" />
+            </button>
           </div>
         </article>
         <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[90%] mb-10">
@@ -106,11 +112,52 @@ export default function Projects() {
               Lost and Found
             </h1>
             <p className="text-[#71717A] md:text-[12px] lg:text-[16px]">
-            My final project is an application, a platform for lost and found items specifically designed for the Faculty of Computer Science at Universitas Muslim Indonesia. It was developed using ReactJS for the frontend, NestJS for the backend, Tailwind for styling, and MySQL as the database.
+              My final project is an application, a platform for lost and found
+              items specifically designed for the Faculty of Computer Science at
+              Universitas Muslim Indonesia. It was developed using ReactJS for
+              the frontend, NestJS for the backend, Tailwind for styling, and
+              MySQL as the database.
             </p>
-            {/* <a href="">
+            <a
+              href="https://lost-and-found.pages.dev/"
+              target="_blank"
+              className="disabled:"
+            >
               <img src={anchor} alt="" />
-            </a> */}
+            </a>
+          </div>
+        </article>
+        <article className="flex flex-col md:grid md:grid-cols-2 justify-items-center md:gap-5 2xl:max-w-[95%]">
+          <img
+            src={blogblok}
+            alt=""
+            className="object-fill rounded-lg w-full h-full md:w-auto m-auto md:h-auto lg:max-w-[530px] aspect-2/3 md:aspect-auto md:object-fill lg:w-full  "
+          />
+
+          <div className="flex flex-col gap-7 lg:justify-center">
+            <h1 className="font-bold text-[24px] md:text-[16px] lg:text-[48px]">
+              06
+            </h1>
+            <h1 className="font-bold text-[20px] md:text-[16px] lg:text-[32px]">
+              BlogBlok
+            </h1>
+            <p className="text-[#71717A] md:text-[12px] lg:text-[16px]">
+              BlogBlok is a dynamic blog application designed for creating,
+              reading, and sharing articles online. I designed the user
+              interface myself, focusing on a clean and intuitive experience
+              using modern web design principles. The front end was built using
+              ReactJS and styled with Tailwind CSS to ensure responsiveness and
+              usability across devices. The API is still under development, but
+              the application is structured to allow seamless integration with
+              backend services once completed.
+            </p>
+            <a
+              href="https://blogblok.pages.dev/article"
+              target="_blank"
+              className="disabled:"
+            >
+              <img src={anchor} alt="" />
+            </a>
           </div>
         </article>
       </div>
